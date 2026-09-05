@@ -14,7 +14,7 @@ namespace LivingBookLab
             Inventory = new List<string>(); // Початковий інвентар
         }
 
-        // Метод дфї
+        // Метод дії
         public void PerformAction(string action)
         {
             Console.WriteLine($"{Name} виконує дію: {action}");
