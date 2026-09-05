@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LivingBook-Lab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0908ef89e55ca198c6e11cd4fa4c79b63e9a3e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355a7ad4093980fd6a9adf2858df76a8f90ff894")]
 [assembly: System.Reflection.AssemblyProductAttribute("LivingBook-Lab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LivingBook-Lab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
