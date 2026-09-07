@@ -1,0 +1,15 @@
+D:\VSCode_WorkSpace\LivingBook-Lab\bin\Debug\net10.0\LivingBook-Lab.exe
+D:\VSCode_WorkSpace\LivingBook-Lab\bin\Debug\net10.0\LivingBook-Lab.deps.json
+D:\VSCode_WorkSpace\LivingBook-Lab\bin\Debug\net10.0\LivingBook-Lab.runtimeconfig.json
+D:\VSCode_WorkSpace\LivingBook-Lab\bin\Debug\net10.0\LivingBook-Lab.dll
+D:\VSCode_WorkSpace\LivingBook-Lab\bin\Debug\net10.0\LivingBook-Lab.pdb
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.AssemblyInfoInputs.cache
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.AssemblyInfo.cs
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.csproj.CoreCompileInputs.cache
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.sourcelink.json
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.dll
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\refint\LivingBook-Lab.dll
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.pdb
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\LivingBook-Lab.genruntimeconfig.cache
+D:\VSCode_WorkSpace\LivingBook-Lab\obj\Debug\net10.0\ref\LivingBook-Lab.dll
