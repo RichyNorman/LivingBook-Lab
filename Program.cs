@@ -19,31 +19,46 @@ namespace LivingBookLab
                 "Темна кімната з дерев'яними столами та запахом старого вина");
             location.Npcs.Add(npc);
 
-            // Гравець входить у локацію
+            //Основний цикл гри
+            bool isRunning = true;
             location.Enter();
 
-            // Взаємодія з NPC
-            Console.WriteLine("Введи команду: talk");
-            string? command = Console.ReadLine();
+            while (isRunning)
+            {
+                Console.WriteLine("\nДоступні команди: look, talk, exit");
+                Console.Write("Веди команду: ");
+                string? command = Console.ReadLine()?.ToLower();
 
-            if (command?.ToLower() == "talk")
-            {
-                npc.Interact(player);
-            }
-            else
-            {
-                Console.WriteLine("Невідома команда.");
-            }
-            
-            // Показати інвентар після взаємодії
-            Console.WriteLine("Інвентар гравця:");
-            foreach (var item in player.Inventory)
-            {
-                Console.WriteLine($"- {item}");
-            }
+                switch (command)
+                {
+                    case "look":
+                        location.Enter();
+                        break;
+                    
+                    case "talk":
+                        npc.Interact(player);
+                        break;
 
-            Console.WriteLine("\nГра завершена. Натисни Enter для виходу.");
-            Console.ReadLine();
+                    case "exit":
+                        isRunning = false;
+                        Console.WriteLine("Ти залишаєш гру...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Невідома командаю спробуй ще раз.");
+                        break;
+                }
+
+                // Показати інвентар гравця після кожної дій.
+                Console.WriteLine("Інвентар гравця:");
+                foreach (string item in player.Inventory)
+                {
+                    Console.WriteLine($"- {item}");
+                }
+
+                Console.WriteLine("\nГра завешена. Натисни Enter для виходу");
+                Console.ReadLine();
+           }
         }
     }
 }
